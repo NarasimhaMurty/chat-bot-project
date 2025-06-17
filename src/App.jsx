@@ -44,7 +44,7 @@ const data = {
   model: "gpt-4o-mini",
   store: true,
   messages: [
-    { role: "user", content: "write about OpenAI" }
+    { role: "user", content: userMessage }
   ]
 };
     // TODO: Replace this with actual API call to your .NET Core backend
